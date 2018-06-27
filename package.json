@@ -1,0 +1,40 @@
+{
+  "name": "chitbuddy",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "formsy-react": "^1.1.4",
+    "lodash": "^4.17.5",
+    "moment": "^2.22.0",
+    "react": "^16.2.0",
+    "react-cardstack": "^1.1.0",
+    "react-datepicker": "^1.4.1",
+    "react-dom": "^16.2.0",
+    "react-flipcard": "^0.2.1",
+    "react-grid-layout": "^0.16.6",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.1",
+    "react-search-input": "^0.11.3",
+    "react-select": "^1.2.1",
+    "redux": "^3.7.2",
+    "redux-persist": "^5.9.1",
+    "redux-thunk": "^2.2.0",
+    "reselect": "^3.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13"
+  }
+}

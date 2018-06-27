@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  background-color: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*  Router.js */
+
+.nav {
+  margin: 0px;
+}
+
+ul {
+  overflow: auto;
+  list-style-type: none;
+}
+
+li {
+  height: 25px;
+  float: left;
+  margin-right: 0px;
+  border-right: 1px solid #aaa;
+  padding: 0 20px;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+.App-nav,
+li.App-nav {
+  text-decoration: none;
+  color: #ccc;
+  font: 25px/1 Helvetica, Verdana, sans-serif;
+  text-transform: uppercase;
+  -webkit-transition: all 5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+li .App-nav:hover {
+  color: #666;
+}
+
+.App-nav-active {
+  font-weight: bold;
+  color: #333;
+}
+
+/*  Router.js */
+
+/* Chitform.js */
+
+.Chit-Card-Container {
+  display: flex;
+  -webkit-flex: 1; /* Safari 6.1+ */
+  -ms-flex: 1; /* IE 10 */
+  flex: 1;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  flex-direction: row;
+}
+
+.Chit-form-card {
+  display: flex;
+  -webkit-flex: 1; /* Safari 6.1+ */
+  -ms-flex: 1; /* IE 10 */
+  flex: 1;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px;
+  flex-direction: row;
+  height: 300px;
+  min-width: 200px;
+  max-width: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 5px;
+}
+
+.Chit-form-card:hover {
+  box-shadow: 8px 8px 16px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Chitform.js */
